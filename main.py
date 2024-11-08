@@ -20,6 +20,7 @@ def menu():
 
     while True:
         try:
+            system("clear")
             menu = int(input("Start(1) || Kilépés(2)"))
             if menu == 1:
                 start()
